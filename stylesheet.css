@@ -152,6 +152,7 @@ header{
   }
   footer {
     background-color: #143642;
+    border-radius: 20px;
     color: #fff;
     height: 120px;
     padding: 40px;
