@@ -13,7 +13,6 @@ body {
 }
 header{
     background-image:url(Coffe\ Header.png);
-    
     border-radius: 20px;
     background-size: cover;
 }
@@ -22,11 +21,15 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin:0;
+    padding:0;
 }
-
+.header-logo img{
+  padding-top: 0px;
+}
 .header-list li {
     float: left;
-    padding: 33px 20px;
+    padding: 0px 20px;
   }
  
 .container{
@@ -176,6 +179,37 @@ header{
   .footer-list a:hover{
     opacity: 1;
   }
+  .konten-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+  .menu-1{
+    display: flex;
+    flex-direction: column;
+    padding:20px 20px;
+  }
+  .menu-1 p{
+    color: #EC9A29;
+  }
+  .menu-2{
+    display: flex;
+    flex-direction: column;
+    padding:20px 20px;
+  }
+  .menu-3{
+    display: flex;
+    flex-direction: column;
+    padding:20px 20px;
+  }
+  .menu-2 p{
+    color: #EC9A29;
+  }
   
+  .menu-3 p{
+    color: #EC9A29;
+  }
     
   
