@@ -170,13 +170,12 @@ footer {
   float: right;
 }
 .footer-list li a{
-  padding-bottom: 20px;
   text-decoration: none;
-  line-height: 40px;
 }
 .footer-list a{
   color:white;
   opacity: 0.4;
+  
 }
 .footer-list a:hover{
   opacity: 1;
@@ -187,6 +186,7 @@ footer {
   justify-content: center;
   margin-right: 0px;
   margin-top: 20px;
+  line-height: 40px;
 } 
 .menu-1{
   display: flex;
